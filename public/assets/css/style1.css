@@ -1,0 +1,45 @@
+.topnav {
+    padding: 10px;
+}
+
+.userlogo {
+    text-align: end;
+}
+
+#form {
+    overflow-x: auto;
+}
+
+#form1 {
+    display: inline-block;
+    width: 100%;
+}
+
+.w-40 {
+    width: 40%!important;
+}
+
+label{
+font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .profile{
+        top:83px;
+    }
+    .sidenav{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    /* .erp {
+        text-align: end;
+    } */
+    .sidenav{
+        display: block;
+    }
+    
+}
+

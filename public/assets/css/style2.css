@@ -1,0 +1,74 @@
+.header {
+    margin-top: 120px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background: none repeat scroll 0 0 #1a2229;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.form-box {
+    width: 360px;
+    margin: 90px auto 0 auto;
+}
+
+.form-box .body,
+.form-box .footer {
+    padding: 10px 20px;
+    background: #fff;
+    color: #444;
+    border-radius: 0 0 4px 4px;
+}
+
+.white-bg-login {
+    background: none repeat scroll 0 0 #f1f2f7;
+}
+
+.form-box .body>.form-group>input,
+.form-box .footer>.form-group>input {
+    border: 1px solid #e2e7eb;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.07) inset;
+}
+
+.form-control {
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 1.42857;
+    width: 92%;
+}
+
+.form-control {
+    display: block;
+    height: 24px;
+    padding: 6px 12px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    /* vertical-align: middle; */
+    background-color: #e8f0fe;
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #00acac;
+    border-color: #00acac;
+    cursor: pointer;
+    padding: 10px 0px;
+    font-weight: 500;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
