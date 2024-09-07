@@ -20,7 +20,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role:admin']], function () {
+Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
     Route::get('/users/create', [AdminController::class, 'userCreate'])->name('users.create');
     
     // Route::get('/users', [ProfileController::class, 'index'])->name('users.index');
